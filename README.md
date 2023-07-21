@@ -1,27 +1,48 @@
 # Memoteca
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Projeto criado no curso de Angular do Alura onde foi desenvolvido o projeto "MemoTeca", um mural de pensamentos. Nele é possível colocar citações de livros, trechos de música, e frases.
 
-## Development server
+Na tela principal da aplicação, contem o título "Meu Mural" escrito em azul, centralizado na tela, e um botão azul logo abaixo com o texto "Adicionar Pensamento". Ao clicar nesse botão, somos direcionados para a tela de cadastro, onde é possível adicionar um novo pensamento.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Requisitos
 
-## Code scaffolding
+```
+- git  2.41.0
+- node vv16.17.0
+- npm 8.15.0
+- @angular-devkit/architect       0.1402.12
+- @angular-devkit/build-angular   14.2.12
+- @angular-devkit/core            14.2.12
+- @angular-devkit/schematics      14.0.7
+- @angular/cli                    14.0.7
+- @schematics/angular             14.0.7
+- rxjs                            7.5.7
+- typescript                      4.7.4
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Clonar o repositório do projeto.
 
-## Build
+```
+git clone https://github.com/engmsilva/memoteca.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalar e Executar o backend Mock
 
-## Running unit tests
+Dentro do diretório backend execute:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install
+npm start
+```
 
-## Running end-to-end tests
+## Executar o Frontend
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Dentro do diretório raiz execute:
 
-## Further help
+```
+npm install
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Navegue até `http://localhost:4200/`.
+
