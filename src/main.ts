@@ -7,6 +7,6 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
 }
-
+//comentário para fazer commit
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
